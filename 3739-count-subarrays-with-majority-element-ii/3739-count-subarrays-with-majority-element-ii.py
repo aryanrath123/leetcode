@@ -1,30 +1,20 @@
 class Solution:
     def countMajoritySubarrays(self, nums: List[int], target: int) -> int:
         n = len(nums)
-        m = 2 * n + 3
-        bit = [0] * m
+        freq = [0] * (2 * n + 1)
+        freq[n] = 1
+        i = n
+        res = 0
+        pref = 0
+        for num in nums:
+            if num == target:
+                pref += freq[i]
+                i += 1
+            else:
+                i -= 1
+                pref -= freq[i]
 
-        def add(i):
-            while i < m:
-                bit[i] += 1
-                i += i & -i
-
-        def query(i):
-            s = 0
-            while i:
-                s += bit[i]
-                i -= i & -i
-            return s
-
-        off = n + 2
-        pre = 0
-        ans = 0
-        add(off)
-
-        for x in nums:
-            pre += 1 if x == target else -1
-            idx = pre + off
-            ans += query(idx - 1)
-            add(idx)
-
-        return ans
+            freq[i] += 1
+            res += pref
+        
+        return res
