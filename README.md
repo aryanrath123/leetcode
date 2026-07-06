@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/aryanrath123/leetcode/tree/master/3620-network-recovery-pathways) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/aryanrath123/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -144,4 +145,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/aryanrath123/leetcode/tree/master/3620-network-recovery-pathways) |
+## Sorting
+|  |
+| ------- |
+| [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 <!---LeetCode Topics End-->
