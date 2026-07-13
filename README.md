@@ -193,4 +193,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aryanrath123/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/aryanrath123/leetcode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
