@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aryanrath123/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/aryanrath123/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0649-dota2-senate](https://github.com/aryanrath123/leetcode/tree/master/0649-dota2-senate) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/aryanrath123/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/aryanrath123/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/aryanrath123/leetcode/tree/master/0136-single-number) |
 | [0216-combination-sum-iii](https://github.com/aryanrath123/leetcode/tree/master/0216-combination-sum-iii) |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/aryanrath123/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/aryanrath123/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/aryanrath123/leetcode/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -113,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/aryanrath123/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -135,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -158,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/aryanrath123/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -170,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [3620-network-recovery-pathways](https://github.com/aryanrath123/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Sorting
 |  |
