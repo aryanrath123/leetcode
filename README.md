@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/aryanrath123/leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0739-daily-temperatures](https://github.com/aryanrath123/leetcode/tree/master/0739-daily-temperatures) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
+| [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
+| [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Dynamic Programming
@@ -254,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/aryanrath123/leetcode/tree/master/0901-online-stock-span) |
+## Simulation
+|  |
+| ------- |
+| [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 <!---LeetCode Topics End-->
