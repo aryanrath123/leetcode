@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aryanrath123/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/aryanrath123/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/aryanrath123/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2336-smallest-number-in-infinite-set](https://github.com/aryanrath123/leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/aryanrath123/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/aryanrath123/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/aryanrath123/leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/aryanrath123/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [2336-smallest-number-in-infinite-set](https://github.com/aryanrath123/leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3620-network-recovery-pathways](https://github.com/aryanrath123/leetcode/tree/master/3620-network-recovery-pathways) |
 ## Matrix
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/aryanrath123/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0901-online-stock-span](https://github.com/aryanrath123/leetcode/tree/master/0901-online-stock-span) |
+| [2336-smallest-number-in-infinite-set](https://github.com/aryanrath123/leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Trie
 |  |
 | ------- |
@@ -260,4 +263,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
+## Ordered Set
+|  |
+| ------- |
+| [2336-smallest-number-in-infinite-set](https://github.com/aryanrath123/leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 <!---LeetCode Topics End-->
