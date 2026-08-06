@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/aryanrath123/leetcode/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/aryanrath123/leetcode/tree/master/0162-find-peak-element) |
+| [0198-house-robber](https://github.com/aryanrath123/leetcode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/aryanrath123/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/aryanrath123/leetcode/tree/master/0216-combination-sum-iii) |
 | [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0198-house-robber](https://github.com/aryanrath123/leetcode/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/aryanrath123/leetcode/tree/master/0338-counting-bits) |
 | [0435-non-overlapping-intervals](https://github.com/aryanrath123/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/aryanrath123/leetcode/tree/master/0486-predict-the-winner) |
