@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aryanrath123/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/aryanrath123/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2542-maximum-subsequence-score](https://github.com/aryanrath123/leetcode/tree/master/2542-maximum-subsequence-score) |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/aryanrath123/leetcode/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/aryanrath123/leetcode/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/aryanrath123/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
 | [1143-longest-common-subsequence](https://github.com/aryanrath123/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1510-stone-game-iv](https://github.com/aryanrath123/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/aryanrath123/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/aryanrath123/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/aryanrath123/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -285,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1137-n-th-tribonacci-number](https://github.com/aryanrath123/leetcode/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/aryanrath123/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/aryanrath123/leetcode/tree/master/1927-sum-game) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/aryanrath123/leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/aryanrath123/leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -366,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/aryanrath123/leetcode/tree/master/0486-predict-the-winner) |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/aryanrath123/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/aryanrath123/leetcode/tree/master/1927-sum-game) |
 ## Interactive
 |  |
@@ -384,11 +389,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/aryanrath123/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/aryanrath123/leetcode/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/aryanrath123/leetcode/tree/master/1872-stone-game-viii) |
 ## Nim Game
 |  |
 | ------- |
