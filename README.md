@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/aryanrath123/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/aryanrath123/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1927-sum-game](https://github.com/aryanrath123/leetcode/tree/master/1927-sum-game) |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/aryanrath123/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/aryanrath123/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/aryanrath123/leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/aryanrath123/leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/aryanrath123/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/aryanrath123/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/aryanrath123/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Tree
 |  |
