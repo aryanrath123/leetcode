@@ -316,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/aryanrath123/leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/aryanrath123/leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/aryanrath123/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3870-count-commas-in-range](https://github.com/aryanrath123/leetcode/tree/master/3870-count-commas-in-range) |
 ## Backtracking
 |  |
 | ------- |
