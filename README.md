@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/aryanrath123/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0739-daily-temperatures](https://github.com/aryanrath123/leetcode/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/aryanrath123/leetcode/tree/master/0746-min-cost-climbing-stairs) |
+| [0835-image-overlap](https://github.com/aryanrath123/leetcode/tree/master/0835-image-overlap) |
 | [0875-koko-eating-bananas](https://github.com/aryanrath123/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0835-image-overlap](https://github.com/aryanrath123/leetcode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
