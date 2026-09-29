@@ -1,24 +1,34 @@
+from functools import cache
+from typing import List
+
 class Solution:
-    def hasValidPath(self, grid: list[list[str]]) -> bool:
+    def hasValidPath(self, grid: List[List[str]]) -> bool:
         m, n = len(grid), len(grid[0])
-
-        if grid[0][0] == ')' or (m + n) % 2 == 0:
+        
+        # Quick boundary checks
+        if (m + n - 1) % 2 == 1 or grid[0][0] == ')' or grid[m - 1][n - 1] == '(':
             return False
+            
+        @cache
+        def dfs(i: int, j: int, k: int) -> bool:
+            # Update balance based on current cell
+            k += 1 if grid[i][j] == '(' else -1
+            
+            # Prune invalid paths
+            if k < 0 or k > m - i + n - j - 1:
+                return False
+                
+            # Base case: reached bottom-right cell
+            if i == m - 1 and j == n - 1:
+                return k == 0
+                
+            # Move down or right
+            res = False
+            if i + 1 < m:
+                res = res or dfs(i + 1, j, k)
+            if not res and j + 1 < n:
+                res = res or dfs(i, j + 1, k)
+                
+            return res
 
-        dp = [[set() for _ in range(n)] for _ in range(m)]
-        dp[0][0].add(1)
-
-        for i in range(m):
-            for j in range(n):
-                for b in dp[i][j]:
-                    if i + 1 < m:
-                        nb = b + (1 if grid[i + 1][j] == '(' else -1)
-                        if nb >= 0:
-                            dp[i + 1][j].add(nb)
-
-                    if j + 1 < n:
-                        nb = b + (1 if grid[i][j + 1] == '(' else -1)
-                        if nb >= 0:
-                            dp[i][j + 1].add(nb)
-
-        return 0 in dp[m - 1][n - 1]
+        return dfs(0, 0, 0)
