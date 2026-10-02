@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aryanrath123/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/aryanrath123/leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/aryanrath123/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/aryanrath123/leetcode/tree/master/0115-distinct-subsequences) |
 | [0208-implement-trie-prefix-tree](https://github.com/aryanrath123/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/aryanrath123/leetcode/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/aryanrath123/leetcode/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/aryanrath123/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/aryanrath123/leetcode/tree/master/0115-distinct-subsequences) |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/aryanrath123/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/aryanrath123/leetcode/tree/master/0022-generate-parentheses) |
 | [0216-combination-sum-iii](https://github.com/aryanrath123/leetcode/tree/master/0216-combination-sum-iii) |
 | [1096-brace-expansion-ii](https://github.com/aryanrath123/leetcode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/aryanrath123/leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -495,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/aryanrath123/leetcode/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/aryanrath123/leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/aryanrath123/leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/aryanrath123/leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
