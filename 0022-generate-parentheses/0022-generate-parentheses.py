@@ -1,17 +1,17 @@
-class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
-        res = []
+class Solution(object):
+    def generateParenthesis(self, n):
+        ans = []
 
-        def backtrack(curr, openCount, closeCount):
-            if len(curr) == 2 * n:
-                res.append(curr)
+        def backtrack(s, open, close):
+            if len(s) == 2 * n:
+                ans.append(s)
                 return
 
-            if openCount < n:
-                backtrack(curr + "(", openCount + 1, closeCount)
+            if open < n:
+                backtrack(s + "(", open + 1, close)
 
-            if closeCount < openCount:
-                backtrack(curr + ")", openCount, closeCount + 1)
+            if close < open:
+                backtrack(s + ")", open, close + 1)
 
         backtrack("", 0, 0)
-        return res
+        return ans
