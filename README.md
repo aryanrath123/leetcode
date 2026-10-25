@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/aryanrath123/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
 | [1140-stone-game-ii](https://github.com/aryanrath123/leetcode/tree/master/1140-stone-game-ii) |
+| [1254-number-of-closed-islands](https://github.com/aryanrath123/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/aryanrath123/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aryanrath123/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/aryanrath123/leetcode/tree/master/0437-path-sum-iii) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
+| [1254-number-of-closed-islands](https://github.com/aryanrath123/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
 | [1096-brace-expansion-ii](https://github.com/aryanrath123/leetcode/tree/master/1096-brace-expansion-ii) |
+| [1254-number-of-closed-islands](https://github.com/aryanrath123/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/aryanrath123/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/aryanrath123/leetcode/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/aryanrath123/leetcode/tree/master/0547-number-of-provinces) |
+| [1254-number-of-closed-islands](https://github.com/aryanrath123/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/aryanrath123/leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/aryanrath123/leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/aryanrath123/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -331,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0835-image-overlap](https://github.com/aryanrath123/leetcode/tree/master/0835-image-overlap) |
 | [0994-rotting-oranges](https://github.com/aryanrath123/leetcode/tree/master/0994-rotting-oranges) |
+| [1254-number-of-closed-islands](https://github.com/aryanrath123/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/aryanrath123/leetcode/tree/master/1260-shift-2d-grid) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/aryanrath123/leetcode/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/aryanrath123/leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
