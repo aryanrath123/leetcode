@@ -1,93 +1,75 @@
+"""
+Constraints:
+1 <= n == s.length <= 5 * 10^4
+edges.length == n - 1
+edges[i] = [ui, vi]
+0 <= ui, vi <= n - 1
+s consists of lowercase English letters.
+The input is generated such that edges represents a valid tree.
+1 <= queries.length <= 5 * 10^4​​​​​​​
+queries[i] = "update ui c" or
+queries[i] = "query ui vi"
+0 <= ui, vi <= n - 1
+c is a lowercase English letter.
+
+Hints:
+Use heavy light decomposition to break each path query into O(log n) segments.
+Represent characters as a 26-bit mask and maintain segment data with XOR. A path can form a palindrome if the resulting mask has at most one bit set.
+
+Copied without trying to understand:
+https://leetcode.com/problems/palindromic-path-queries-in-a-tree/solutions/7579030/brilliant-python3cpp-implementation-onq-vn85l
+
+"""
 class Solution:
-    def palindromePath(self, n: int, edges: list[list[int]], s: str, queries: list[str]) -> list[bool]:
-        adj = [[] for _ in range(n)]
-        for u, v in edges:
-            adj[u].append(v)
-            adj[v].append(u)
+    def palindromePath(self, n: int, E: list[list[int]], s: str, Q: list[str]) -> list[bool]:
+        P, D = [0] * n, [0] * n
+        D[0] = 2
+        for u, v in E: P[u], P[v], D[u], D[v] = P[u] ^ v, P[v] ^ u, D[u] + 1, D[v] + 1
 
-        parent = [0] * n
-        depth = [0] * n
-        tin = [0] * n
-        order = []
-        stack = [0]
+        SS, C, QQ = [1] * n, [-1] * n, [i for i in range(n) if D[i] == 1]
+        for i in QQ:
+            p, ss = P[i], SS[i]
+            SS[p] += ss
+            if (c := C[p]) == -1 or ss > SS[c]: C[p] = i
 
-        while stack:
-            u = stack.pop()
-            tin[u] = len(order)
-            order.append(u)
-            for v in adj[u]:
-                if v != parent[u]:
-                    parent[v] = u
-                    depth[v] = depth[u] + 1
-                    stack.append(v)
+            P[p], D[p] = P[p] ^ i, D[p] - 1
+            if D[p] == 1: QQ.append(p)
+        QQ.append(0)
 
-        size = [1] * n
-        for u in reversed(order):
-            if u:
-                size[parent[u]] += size[u]
+        T, D, L, t = [-1] * n, [-1] * n, [0] * n, 0
+        for i in reversed(QQ):
+            if ~D[i]: continue
 
-        tout = [tin[u] + size[u] - 1 for u in range(n)]
-
-        log = n.bit_length()
-        up = [parent]
-        for _ in range(1, log):
-            up.append([up[-1][up[-1][i]] for i in range(n)])
-
-        pref = [0] * n
-        chars = list(s)
-        pref[0] = 1 << (ord(s[0]) - 97)
-
-        for u in order[1:]:
-            pref[u] = pref[parent[u]] ^ (1 << (ord(s[u]) - 97))
-
-        bit = [0] * (n + 1)
-
-        def add(i, x):
-            while i <= n:
-                bit[i] ^= x
-                i += i & -i
-
-        def get(u):
-            i, x = tin[u] + 1, 0
-            while i:
-                x ^= bit[i]
-                i -= i & -i
-            return x
-
-        def lca(u, v):
-            if depth[u] < depth[v]:
-                u, v = v, u
-
-            d = depth[u] - depth[v]
-            for k in range(log):
-                if d >> k & 1:
-                    u = up[k][u]
-
-            if u == v:
-                return u
-
-            for k in range(log - 1, -1, -1):
-                if up[k][u] != up[k][v]:
-                    u, v = up[k][u], up[k][v]
-
-            return parent[u]
-
-        ans = []
-
-        for q in queries:
-            op, x, y = q.split()
-            u = int(x)
-
-            if op == "update":
-                delta = (1 << (ord(chars[u]) - 97)) ^ (1 << (ord(y) - 97))
-                chars[u] = y
-                add(tin[u] + 1, delta)
-                add(tout[u] + 2, delta)
-            else:
-                v = int(y)
-                w = lca(u, v)
-                mask = pref[u] ^ get(u) ^ pref[v] ^ get(v)
-                mask ^= 1 << (ord(chars[w]) - 97)
-                ans.append(mask.bit_count() <= 1)
-
-        return ans
+            tt = i
+            while ~i: T[i], L[t], D[i], t, i = tt, 1 << ord(s[i]) - 97, t, t + 1, C[i]
+        
+        B = [0] + L
+        for i in range(1, n + 1):
+            j = i + (i & -i)
+            if j <= n: B[j] ^= B[i]
+        
+        A = []
+        for q in Q:
+            match q.split():
+                case ("update", i, c):
+                    x = D[int(i)]
+                    v = (1 << ord(c) - 97)
+                    d = v ^ L[x]
+                    L[x] = v
+                    x += 1
+                    while x <= n: B[x], x = B[x] ^ d, x + (x & -x)
+                case ("query", u, v):
+                    u, v = map(int, (u, v))
+                    r = 0
+                    while T[u] != T[v]:
+                        if D[T[u]] < D[T[v]]: u, v = v, u
+                        ss, tt = D[T[u]], D[u] + 1
+                        while tt > ss: r, tt = r ^ B[tt], tt & (tt - 1)
+                        while ss > tt: r, ss = r ^ B[ss], ss & (ss - 1)
+                        u = P[T[u]]
+                    if D[u] > D[v]: u, v = v, u
+                    ss, tt = D[u], D[v] + 1
+                    while tt > ss: r, tt = r ^ B[tt], tt & (tt - 1)
+                    while ss > tt: r, ss = r ^ B[ss], ss & (ss - 1)
+                    A.append(r & (r - 1) == 0)
+        return A
